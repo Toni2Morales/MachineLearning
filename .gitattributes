@@ -1,0 +1,2 @@
+scr/data/** filter=lfs diff=lfs merge=lfs -text
+scr/model/** filter=lfs diff=lfs merge=lfs -text
