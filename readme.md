@@ -44,4 +44,4 @@ El modelo final que he elegido ha sido un RandomForest que gracias a la hiperpar
 
 ![Image](scr/Images/MejorModelo.PNG)
 
-### La primera métrica indica el error absoluto medio que indica que de media las predicciones se desvían un 0,08 del resultado real mientras que con la segunda métrica podemos ver que normalmente no vamos a tener ningún error grande. La tercera métrica es el error porcentual absoluto medio indicando un error de un 4% y el último error indica la raíz del erro cuatrático medio con un valor de 0,001.
+### La primera métrica indica el error absoluto medio que indica que de media las predicciones se desvían un 0,01 del resultado real mientras que con la segunda métrica podemos ver que normalmente no vamos a tener ningún error grande. La tercera métrica es el error porcentual absoluto medio indicando un error de un 0.08% de error y el último error indica la raíz del error cuatrático medio con un valor de 0,00001.
