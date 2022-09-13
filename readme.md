@@ -38,4 +38,10 @@
 
 ![Image](scr/Images/SilicaFeedIronFeed.png)
 
+## **Modelo Final**
 
+El modelo final que he elegido ha sido un RandomForest que gracias a la hiperparametrización con GridSearch he conseguido estos resultados.
+
+![Image](scr/Images/MejorModelo.PNG)
+
+### La primera métrica indica el error absoluto medio que indica que de media las predicciones se desvían un 0,08 del resultado real mientras que con la segunda métrica podemos ver que normalmente no vamos a tener ningún error grande. La tercera métrica es el error porcentual absoluto medio indicando un error de un 4% y el último error indica la raíz del erro cuatrático medio con un valor de 0,001.
