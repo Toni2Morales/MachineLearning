@@ -20,7 +20,7 @@
     * train.py/: Es el script que contiene solo los pasos para obtener el mejor modelo.
 
 
-*En este repositorio se ha usado git lfs ya que los archivos csv y los modelos eran demasiado grandes*
+*En este repositorio se ha usado git lfs para las carpetas de data y model ya que los archivos csv y los modelos eran demasiado grandes, para usar los modelos y archivos csv se tendrán que descargar desde github*
 ### Fuente: [Kaggle](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process)
 
 ------
@@ -44,4 +44,4 @@ El modelo final que he elegido ha sido un RandomForest que gracias a la hiperpar
 
 ![Image](scr/Images/MejorModelo.PNG)
 
-### La primera métrica indica el error absoluto medio que indica que de media las predicciones se desvían un 0,01 del resultado real mientras que con la segunda métrica podemos ver que normalmente no vamos a tener ningún error grande. La tercera métrica es el error porcentual absoluto medio indicando un error de un 0.08% de error y el último error indica la raíz del error cuatrático medio con un valor de 0,00001.
+### La primera métrica indica el error absoluto medio que indica que de media las predicciones se desvían un 0,08 del resultado real mientras que con la segunda métrica podemos ver que normalmente no vamos a tener ningún error grande. La tercera métrica es el error porcentual absoluto medio indicando un error de un 0.04% de error y el último error indica la raíz del error cuatrático medio con un valor de 0,01.
