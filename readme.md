@@ -4,6 +4,8 @@
 *En este repositorio se ha usado git lfs para las carpetas de data y model ya que los archivos csv y los modelos eran demasiado grandes, para usar los modelos y archivos csv se tendrán que descargar desde github*
 ### Objetivo: Este es un proyecto en el que voy a encontrar un modelo que predica el porcentaje de sílice(impureza) que contiene un mineral después de haber sido sometido a los procesos de una planta de flotación.La pureza del mineral se puede obtener manualmente con una medida de laboratorio pero tardan al menos una hora en conseguirla, pudiendo preveer el porcentaje de pureza que tendrá el mineral al final del proceso lso ingenieros pueden tomar medidas preventivas reduciendo la impureza e impidiendo el desperdicio de porcentaje de mineral
 
+
+
 -----
 
 ### Organización de carpetas: 
@@ -19,7 +21,21 @@
 
     * train.py/: Es el script que contiene solo los pasos para obtener el mejor modelo.
 
+------
+
 ### Fuente: [Kaggle](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process)
+
+------
+
+### En este proyecto de pueden apreciar conocimientos en:
+
+* Análisis de datos
+* Aprendizaje supervisado
+* Modelos ensamblados
+* Modelos de regresión
+* Interpretación del modelo
+* RandomSearch
+* Regularización
 
 ------
 ## **Importación de los datos**
