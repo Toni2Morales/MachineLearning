@@ -45,8 +45,16 @@
 
 ### El dataset utilizado contaba con 737453 registros y unas 24 columnas inicialmente, sin datos nulos y con los datos en tipo texto. Estas son algunas de las 23 variables que tenían los datos tras eliminar la columna de la fecha y transformar los datos a tipo numérico:
 
-![Image](scr/Images/columnas.PNG)
 
+% Iron Feed|	% Silica Feed	|Starch Flow|	Amina Flow	|Ore Pulp Flow	|Ore Pulp pH|	Ore Pulp Density|	Flotation Column 01 Air Flow|	Flotation Column 04 Air Flow	|Flotation Column 05 Air Flow	|Flotation Column 06 Air Flow|	Flotation Column 01 Level	|Flotation Column 02 Level|	Flotation Column 03 Level	|Flotation Column 04 Level|	Flotation Column 05 Level|	Flotation Column 06 Level|	Flotation Column 07 Level|	% Silica Concentrate
+---|---|---|----|-----|-----|-----|-----|-----|----|----|-----|-----|-----|------|-----|-----|------|----
+0|	55.2|	16.98|	3019.53|	557.434|	395.713|	10.0664|	1.74|	249.214|	295.096|	306.4|	250.225|	457.396|	432.962|	424.954|	443.558|	502.255|	446.370|	523.344|	1.31
+1|	55.2|	16.98|	3024.41|	563.965|	397.383|	10.0672|	1.74|	249.719|	295.096|	306.4|	250.137|	451.891|	429.560|	432.939|	448.086|	496.363|	445.922|	498.075|	1.31
+2|	55.2|	16.98|	3043.46|	568.054|	399.668|	10.0680|	1.74|	249.741|	295.096|	306.4|	251.345|	451.240|	468.927|	434.610|	449.688|	484.411|	447.826|	458.567|	1.31
+3|	55.2|	16.98|	3047.36|	568.665|	397.939|	10.0689|	1.74|	249.917|	295.096|	306.4|	250.422|	452.441|	458.165|	442.865|	446.210|	471.411|	437.690|	427.669|	1.31
+4|	55.2|	16.98|	3033.69|	558.167|	400.254|	10.0697|	1.74|	250.203|	295.096|	306.4|	249.983|	452.441|	452.900|	450.523|	453.670|	462.598|	443.682|	425.679|	1.31
+5|	55.2|	16.98|	3079.10|	564.697|	396.533|	10.0705|	1.74|	250.730|	295.096|	306.4|	250.356|	444.384|	443.269|	460.449|	439.920|	451.588|	433.539|	425.458|	1.31
+6|	55.2|	16.98|	3127.79|	566.467|	392.900|	10.0713|	1.74|	250.313|	295.096|	306.4|	250.950|	446.185|	444.571|	452.306|	431.328|	443.548|	444.575|	431.251|	1.31
 
 ### La variable a predecir es "% Silica Concentrate" y como se ve en la imagen, el porcentaje del mineral de hierro y el porcentaje de sílice antes del proceso están muy correlados y parece no tener mucha relación con la pureza que tendrán al final.
 
